@@ -1,0 +1,20 @@
+version: '24.0.6'
+
+services:
+    web:
+      build:
+        context: .
+        dockerfile: Docker/nginx/Dockerfile
+      ports:
+        - "8088:80"
+      volumes:
+        - .:/app/
+      links:
+        - php
+
+    php:
+      build:
+        context: .
+        dockerfile: Docker/php/Dockerfile
+      volumes:
+          - .:/app/

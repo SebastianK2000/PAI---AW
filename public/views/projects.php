@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
-    <link rel="stylesheet" type="text/css" href="../css/projects.css">
+    <link rel="stylesheet" type="text/css" href="public/css/style.css">
+    <link rel="stylesheet" type="text/css" href="public/css/projects.css">
     <link rel="stylesheet"
           href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
 
@@ -13,7 +13,7 @@
 <body>
 <div class="base-container">
     <nav>
-        <img src="../img/logo.svg">
+        <img src="public/img/logo.svg">
         <ul>
             <li>
                 <i class="fas fa-house"></i>
@@ -55,7 +55,7 @@
         </header>
         <section class="projects">
             <div id="project-1">
-                <img src="../img/uploads/project_smile.jpg">
+                <img src="public/uploads/">
                 <div>
                     <h2>title</h2>
                     <p>description</p>

@@ -1,6 +1,7 @@
 version: '24.0.6'
 
 services:
+
     web:
       build:
         context: .
@@ -18,3 +19,14 @@ services:
         dockerfile: Docker/php/Dockerfile
       volumes:
           - .:/app/
+
+    postgres:
+      image: postgres:latest
+      environment:
+        POSTGRES_USER: admin
+        POSTGRES_PASSWORD: admin
+        POSTGRES_DB: Users
+      ports:
+        - "5432:5432"
+      volumes:
+        - .:/app/

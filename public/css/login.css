@@ -246,6 +246,10 @@ body {
     padding: 12px 48px;
 }
 
+.messages {
+    margin: 15px;
+}
+
 @keyframes move1 {
     0% {
         transform: translate(-60vw, 0);

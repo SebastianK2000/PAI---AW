@@ -76,5 +76,8 @@
         </form>
     </div>
 </div>
+//Opcjonalne powiadomienie o plikach cookies
+
+<script src="https://skrypt-cookies.pl/id/452e13e7aca87df8.js"></script>
 </body>
 </html>
